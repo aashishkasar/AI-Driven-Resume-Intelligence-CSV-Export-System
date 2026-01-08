@@ -9,7 +9,7 @@ import tempfile
 import csv
 
 import streamlit as st
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -23,7 +23,7 @@ from docx import Document
 # ------------------------------------------------------------
 # ENV SETUP
 # ------------------------------------------------------------
-load_dotenv()
+#load_dotenv()
 
 # ------------------------------------------------------------
 # STREAMLIT CONFIG
